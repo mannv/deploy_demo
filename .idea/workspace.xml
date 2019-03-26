@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9122f9ae-4cb0-4292-94bf-c292c08cc47d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/laradock/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +29,7 @@
           <entry key="conf" value="1" />
           <entry key="env" value="2" />
           <entry key="gitignore" value="2" />
+          <entry key="md" value="1" />
           <entry key="sh" value="1" />
           <entry key="yml" value="2" />
         </counts>
@@ -36,6 +37,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Dockerfile" value="2" />
+          <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="SmartyConfig" value="1" />
           <entry key="YAML" value="2" />
@@ -45,12 +47,14 @@
         <counts>
           <entry key="Dockerfile" value="88" />
           <entry key="env" value="34" />
+          <entry key="md" value="4" />
           <entry key="yml" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Dockerfile" value="88" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="34" />
           <entry key="YAML" value="8" />
         </counts>
@@ -109,11 +113,23 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="762" column="47" selection-start-line="762" selection-start-column="47" selection-end-line="762" selection-end-column="47" />
+            <state relative-caret-position="395">
+              <caret line="207" column="17" lean-forward="true" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret column="3" selection-start-column="3" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -131,6 +147,8 @@
       <find>LARADOCK_PHP_VERSION</find>
       <find>depends_on</find>
       <find>mysql</find>
+      <find>php-fpm</find>
+      <find>workspace:</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -144,6 +162,7 @@
         <option value="$PROJECT_DIR$/laradock/.gitignore" />
         <option value="$PROJECT_DIR$/laradock/jenkins/Dockerfile" />
         <option value="$PROJECT_DIR$/laradock/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -261,11 +280,6 @@
               <item name="deploy_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="deploy_demo" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="deploy_demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="deploy_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="laradock" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -306,12 +320,12 @@
       <option name="presentableId" value="Default" />
       <updated>1553613137603</updated>
       <workItem from="1553613139113" duration="4702000" />
-      <workItem from="1553629482085" duration="2812000" />
+      <workItem from="1553629482085" duration="3524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7514000" />
+    <option name="totallyTimeSpent" value="8226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
@@ -389,8 +403,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="762" column="47" selection-start-line="762" selection-start-column="47" selection-end-line="762" selection-end-column="47" />
+        <state relative-caret-position="395">
+          <caret line="207" column="17" lean-forward="true" selection-start-line="207" selection-start-column="17" selection-end-line="207" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret column="3" selection-start-column="3" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
