@@ -759,6 +759,8 @@ services:
         - "${JENKINS_HOST_SLAVE_AGENT_PORT}:50000"
         - "${JENKINS_HOST_HTTP_PORT}:8080"
       privileged: true
+      volumes:
+        - /var/www/hrbiz_dev:/var/www/hrbiz_dev
       networks:
         - frontend
         - backend
