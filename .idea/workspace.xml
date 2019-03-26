@@ -1,57 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9122f9ae-4cb0-4292-94bf-c292c08cc47d" name="Default Changelist" comment="" />
+    <list default="true" id="9122f9ae-4cb0-4292-94bf-c292c08cc47d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.gitmodules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/CONTRIBUTING.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Jenkinsfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/docker-compose.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/init.groovy" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/install-plugins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins-support" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins_home/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/plugins.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/publish.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/functions.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/update/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/plugins.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/runtime.bats" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/test_helpers.bash" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/upgrade-plugins/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock/jenkins/update-official-library.sh" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-552721082">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="Dockerfile" value="2" />
           <entry key="conf" value="1" />
           <entry key="env" value="2" />
-          <entry key="yml" value="1" />
+          <entry key="gitignore" value="2" />
+          <entry key="sh" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Dockerfile" value="2" />
+          <entry key="PLAIN_TEXT" value="5" />
           <entry key="SmartyConfig" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="env" value="29" />
+          <entry key="Dockerfile" value="88" />
+          <entry key="env" value="34" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="29" />
+          <entry key="Dockerfile" value="88" />
+          <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/workspace/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="993" lean-forward="true" selection-start-line="993" selection-end-line="993" />
+            <state relative-caret-position="-521">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -59,8 +97,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="256" column="23" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="23" />
+            <state relative-caret-position="720">
+              <caret line="40" column="11" selection-start-line="40" selection-end-line="40" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -69,25 +107,39 @@
         <entry file="file://$PROJECT_DIR$/laradock/nginx/sites/default.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="198">
-              <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.env">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="11" column="17" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="17" />
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/laradock/jenkins/Dockerfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="343">
+              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
-              <caret line="379" column="53" selection-start-line="379" selection-start-column="32" selection-end-line="379" selection-end-column="53" />
+            <state relative-caret-position="918">
+              <caret line="51" column="46" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -100,6 +152,10 @@
       <find>MYSQL_ROOT_PASSWORD</find>
       <find>mariadb</find>
       <find>MARIADB_ROOT_PASSWORD</find>
+      <find>jenkin</find>
+      <find>php</find>
+      <find>PHP_VERSION</find>
+      <find>LARADOCK_PHP_VERSION</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -110,6 +166,9 @@
       <list>
         <option value="$PROJECT_DIR$/laradock/workspace/Dockerfile" />
         <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/laradock/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/laradock/.gitignore" />
+        <option value="$PROJECT_DIR$/laradock/jenkins/Dockerfile" />
       </list>
     </option>
   </component>
@@ -271,26 +330,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553613137603</updated>
-      <workItem from="1553613139113" duration="1022000" />
+      <workItem from="1553613139113" duration="4702000" />
+      <workItem from="1553629482085" duration="1294000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1022000" />
+    <option name="totallyTimeSpent" value="5996000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="npm" side_tool="true" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -298,10 +352,15 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,38 +370,51 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/laradock/workspace/Dockerfile">
+    <entry file="file://$PROJECT_DIR$/laradock/jenkins/docker-compose.yml" />
+    <entry file="file://$PROJECT_DIR$/laradock/jenkins/plugins.sh" />
+    <entry file="file://$PROJECT_DIR$/laradock/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/laradock/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="993" lean-forward="true" selection-start-line="993" selection-end-line="993" />
+        <state relative-caret-position="720">
+          <caret line="40" column="11" selection-start-line="40" selection-end-line="40" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/laradock/nginx/sites/default.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="17" lean-forward="true" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="379" column="53" selection-start-line="379" selection-start-column="32" selection-end-line="379" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/laradock/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="256" column="23" selection-start-line="256" selection-start-column="17" selection-end-line="256" selection-end-column="23" />
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="17" />
+        <state relative-caret-position="378">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/workspace/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-521">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/laradock/jenkins/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
         </state>
       </provider>
     </entry>
