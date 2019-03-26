@@ -30,16 +30,16 @@ namespace :deploy do
 	before :"symlink:release", :run_composer do
 		on roles(:app) do
 			print "--------- symlink .env file to release directory ------\n"	
+			execute "cp /var/www/hrbiz_dev/shared/.env #{release_path}/.env"
 			execute "cp /var/www/hrbiz_dev/shared/laradock/.env #{release_path}/laradock/.env"
 
-			# execute "ln -s /var/www/landing_page/topkids.vn/files/ #{release_path}/public/media"
-
-			# print "----------- RUN COMPOSER INSTALL -----------\n"			
-			# execute "cd #{release_path}; composer install --no-dev"			
-			# print "----------- END COMPOSER INSTALL -----------\n"
-			# execute "chmod -R 0777 #{release_path}/storage"
-			#print "----------- RUN MIGRATE -----------\n"				
-			# execute "cd #{release_path}; php artisan migrate --force"
+			print "----------- RUN COMPOSER INSTALL -----------\n"			
+			execute "cd #{release_path}; composer install --no-dev"
+			
+			print "----------- END COMPOSER INSTALL -----------\n"
+			execute "chmod -R 0777 #{release_path}/storage"
+			print "----------- RUN MIGRATE -----------\n"				
+			execute "cd #{release_path}; php artisan migrate --force"
 		end
 	end
 

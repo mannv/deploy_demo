@@ -4,23 +4,11 @@ FROM jenkins/jenkins:latest
 USER root
 
 RUN apt-get update && \
-	apt-get install -y wget curl git
-
-#https://www.rosehosting.com/blog/install-ruby-on-rails-on-ubuntu-16-04/
-#install ruby to install capistrano
-RUN gpg --keyserver hkp://pool.sks-keyservers.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB && \
-	cd /tmp && \curl -sSL https://get.rvm.io -o rvm.sh && \
-	cat /tmp/rvm.sh | bash -s stable
-
-RUN /bin/bash -c "source /usr/local/rvm/scripts/rvm" && \
-	/bin/bash -l -c "rvm install 2.3.0"
+	apt-get install -y ruby-full wget curl git
 
 #install capistrano http://capistranorb.com/
 RUN /bin/bash -l -c "gem install capistrano"
 RUN /bin/bash -l -c "gem install capistrano-locally"
-
-#init ruby evironment
-RUN echo 'source /usr/local/rvm/scripts/rvm' >> /etc/bash.bashrc
 
 #install php
 RUN apt-get update && \
@@ -59,3 +47,8 @@ RUN apt-get install -y pkg-config \
     curl \
     nano \
     postgresql-client
+
+# Install composer and add its bin to the PATH.
+RUN curl -s http://getcomposer.org/installer | php && \
+    echo "export PATH=${PATH}:/var/www/vendor/bin" >> ~/.bashrc && \
+    mv composer.phar /usr/local/bin/composer
