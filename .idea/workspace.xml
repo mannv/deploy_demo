@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9122f9ae-4cb0-4292-94bf-c292c08cc47d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" afterPath="$PROJECT_DIR$/laradock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/laradock/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/Jenkinsfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/docker-compose.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/init.groovy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/install-plugins.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins-support" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/jenkins_home/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/plugins.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/publish.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/functions.bats" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins.bats" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/install-plugins/update/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/plugins/plugins.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/runtime.bats" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/test_helpers.bash" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/tests/upgrade-plugins/Dockerfile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laradock/jenkins/update-official-library.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laradock" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +97,7 @@
         <entry file="file://$PROJECT_DIR$/laradock/jenkins/Dockerfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+              <caret line="24" column="12" lean-forward="true" selection-end-line="60" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -159,7 +131,7 @@
     </findStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/laradock" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -331,15 +303,16 @@
       <option name="presentableId" value="Default" />
       <updated>1553613137603</updated>
       <workItem from="1553613139113" duration="4702000" />
-      <workItem from="1553629482085" duration="1294000" />
+      <workItem from="1553629482085" duration="1526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5996000" />
+    <option name="totallyTimeSpent" value="6228000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="721" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2536349" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -414,7 +387,7 @@
     <entry file="file://$PROJECT_DIR$/laradock/jenkins/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="343">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
+          <caret line="24" column="12" lean-forward="true" selection-end-line="60" selection-end-column="21" />
         </state>
       </provider>
     </entry>
